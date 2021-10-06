@@ -55,7 +55,6 @@ h1 {
 h2.heading {
     letter-spacing: 1px;
     font-weight: normal;
-    margin-top: 20px;
     margin-bottom: 40px;
     font-size: 32px;
 }
@@ -251,8 +250,16 @@ p.section-text {
 .infobox5{
     text-align: center;
     background-color: #f6f5f3;
+    padding-top: 50px;
+}
+.section-text.page {
+   margin: 0 300px;
+   margin-bottom: 70px;
 }
 
+.red-uppercase.design {
+    margin-top: 40px;
+}
 
 
 
@@ -263,24 +270,50 @@ p.section-text {
     padding: 60px;
     background-color: #323969;
 }
-.inputA {
-    display: inline-block;
-    border-radius: 2px;
-    border: 5px;
+.heading.registerblock {
     color: white;
+}
+.inputA {
+    display: flex;
+    border-radius: 2px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .register {
     background-color: #474d78;
-    border: 2px;
     color: white;
-    padding: 15px 52px;
+    padding: 15px 45px;
     text-align: left;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 2px;
+    border: 1px solid #999cb4; 
+    width: 30%;
+    
 }
+.register::placeholder {
+    color: white;
+}
+.secondbutton {
+    background-color: #ff6d6d;
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 30%;
+
+}
+
 
 .inputB {
     display: flex;
