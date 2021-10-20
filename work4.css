@@ -26,6 +26,7 @@ body {
 
 .title1 {
     font-family: 'Exo', sans-serif;
+    text-align: center;
 }
 
 header img {
@@ -368,7 +369,7 @@ footer {
 .infobox7 {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 60px;
     background: rgb(236,236,236);
     background: linear-gradient(55deg, rgba(236,236,236,0) 84%, rgba(255,138,138,1) 84%);
@@ -381,47 +382,72 @@ footer {
     justify-content: center;
 }
 
-.yourmale {
+.contact {
+    list-style-type: none;
+}
+
+.partner-contact {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+.input-male {
+    
+}
+
+.yourmale-input {
+    position: relative;
+    display: flex;
     padding: 15px 45px;
     text-align: left;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 2px;
-    border: 1px solid #999cb4; 
+
+}
+
+.yourmale {
+
+}
+
+.partner-logo {
+    display: flex;
 }
 
 .start {
     position: absolute;
-    left: 100px;
-    top: 25px;
+    left: 155px;
+    top: 22px;
 }
 
 .dribbble {
     position: absolute;
-    left: 750px;
+    left: 60vw;
     top: 150px;
 }
 
 .facebook {
     position: absolute;
-    left: 800px;
+    left: 65vw;
     top: 150px; 
 }
 
 .googleplus {
     position: absolute;
-    left: 850px;
+    left: 70vw;
     top: 150px; 
 }
 .twitter {
     position: absolute;
-    left: 900px;
+    left: 75vw;
     top: 150px; 
 }
 
 .plane {
     position: absolute;
-    left: 958px;
-    top: 100px;
-}
+    left: 75vw;
+    top: 6.8vw;
+}  
