@@ -1,4 +1,4 @@
-/* 
+/*
     ---- COMMON ----
 */
 
@@ -83,7 +83,7 @@ p.section-text {
     letter-spacing: 1px;
 }
 
-/* 
+/*
     ---- /COMMON ----
 */
 
@@ -131,7 +131,7 @@ p.section-text {
     flex-direction: column;
     align-items: center;
     position: relative;
-    
+
 }
 
 .trianglebox {
@@ -267,6 +267,10 @@ p.section-text {
     padding-top: 50px;
 }
 
+.website-image img {
+    width: 75%;
+}
+
 .section-text.page {
    margin: 0 300px;
    margin-bottom: 70px;
@@ -300,6 +304,7 @@ p.section-text {
     align-items: center;
     justify-content: space-between;
     gap: 8px;
+    width: 100%;
 }
 
 .register {
@@ -311,7 +316,7 @@ p.section-text {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 2px;
-    border: 1px solid #999cb4; 
+    border: 1px solid #999cb4;
     width: 30%;
 }
 
@@ -339,19 +344,26 @@ p.section-text {
     padding-right: 5px;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
 .white.right {
+    margin-right: 35px;
     position: relative;
     color: #a8aabc;
     text-align: right;
-    margin-left: 800px;
     margin-bottom: 30px;
+    font-size: 12px;
+    display: flex;
 }
 
 .arrow {
     position: absolute;
-    right: 190px;
-    top: 0;
-    z-index: 1;
+    left: -30px;
 }
 
 .v-line {
@@ -387,14 +399,14 @@ footer {
 }
 
 .partner-contact {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: start;
 
 }
 .input-male {
-    
+
 }
 
 .yourmale-input {
@@ -417,6 +429,10 @@ footer {
     display: flex;
 }
 
+.partner-logo img {
+    filter: grayscale(100%);
+}
+
 .start {
     position: absolute;
     left: 155px;
@@ -432,22 +448,57 @@ footer {
 .facebook {
     position: absolute;
     left: 65vw;
-    top: 150px; 
+    top: 150px;
 }
 
 .googleplus {
     position: absolute;
     left: 70vw;
-    top: 150px; 
+    top: 150px;
 }
 .twitter {
     position: absolute;
     left: 75vw;
-    top: 150px; 
+    top: 150px;
 }
 
 .plane {
     position: absolute;
     left: 75vw;
     top: 6.8vw;
-}  
+}
+
+@media screen and (max-width: 870px) {
+
+    .infobox1 .textinfo {
+        padding: 20px 40px;
+    }
+
+    .infobox3 .content-container {
+        flex-direction: column;
+    }
+
+    .infobox3 .content-container .text {
+        padding-top: 15px;
+    }
+
+    .infobox3 {
+        background: linear-gradient(35deg, rgba(255,255,255,1) 70%, rgba(255,138,138,1) 70%)!important;
+    }
+
+    .coffe {
+        right: 40px;
+    }
+
+    .pen {
+        left: 40px;
+    }
+
+    .corporat {
+        right: 40px;
+    }
+
+    .textinfo2 {
+        padding: 20px 50px;
+    }
+}
